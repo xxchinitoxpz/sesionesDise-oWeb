@@ -1,0 +1,49 @@
+body,main{
+    margin: 0px;
+}
+#caja1{
+    background-color: #6AEA58;
+    height: 300px;
+    color: #AD350E;
+    font-size: 50px;
+}
+#nombre1,#miweb{
+    margin:  0px;
+}
+
+#imagen1{
+    float: left;
+}
+#imagen2{
+    width: 95px;
+}
+
+#caja2{
+    font-size: 30px;
+    background-color:#58AD0E ;
+    color: #AD350E;
+}
+#caja3{
+    width: 1000px;
+    float: left;
+    background-color: white;
+}
+#caja4{
+background-color: #6AEA58;
+height: 610px;
+}
+#caja6{
+    clear: left;
+   
+}
+#caja5{
+    background-color:#58AD0E ;
+    display: flex;
+}
+#caja6{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+

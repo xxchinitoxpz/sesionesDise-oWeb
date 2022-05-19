@@ -1,0 +1,71 @@
+body{
+    margin: 0px auto;
+}
+
+.grid{
+      display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 200px 50px;
+    grid-template-areas: "my-header"
+    "my-nav" "my-section" "my-aside"
+    "my-footer";
+}
+
+main{
+    color: white;
+    font-family: arial;
+}
+header{
+    background-color: red;
+    grid-area: my-header;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 40px;
+}
+
+nav{
+    background-color: black;
+    grid-area: my-nav;
+    text-align: right;
+}
+
+section{
+    background-color:white;
+    grid-area: my-section;
+    color: black;
+}
+
+aside{
+    background-color:beige;
+    grid-area: my-aside;
+    color: black;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    grid-area: my-footer;
+    text-align: center;
+}
+@media (min-width:600px) and (max-width:1000px){
+    
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 50px 1fr 100px;
+        grid-template-areas: "my-header my-header"
+        "my-nav my-nav" "my-aside my-section"
+        "my-footer my-footer";
+    }
+}
+@media (min-width:1001px){
+    .grid{
+        min-height: 100vh;
+        grid-template-columns: 1fr 300px;
+        grid-template-rows: 80px 30px 1fr 30px;
+        grid-template-areas: "my-header my-header"
+        "my-nav my-nav" "my-section my-aside"
+        "my-footer my-footer";
+    }
+}

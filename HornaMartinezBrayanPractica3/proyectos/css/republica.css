@@ -1,0 +1,37 @@
+header{
+    background-color: red;
+    font-size: 50px;
+    height: 70px;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Times New Roman';
+    color: white;
+}
+nav {
+ background-color: gray;
+ color: white;
+ margin-top: 0px; 
+ font-size: 15px;
+ margin: 0px;
+}
+body{
+    margin: 0px;
+}
+.sociedad{
+    font-size: 15px;
+    color: red;
+    margin-bottom: 0px;
+}
+.agresion{
+    margin-top: 0px;
+}
+#caja2{
+    float: right;
+}
+strong{
+        color:white;
+    background-color: red;
+   }
+h3{
+    text-align: right;
+}
