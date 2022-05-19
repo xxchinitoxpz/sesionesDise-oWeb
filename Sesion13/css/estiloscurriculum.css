@@ -1,0 +1,39 @@
+.titulo1{
+    background-color:#312DAD;
+    text-align: center;
+    color: yellow;
+    font-family: Arial Black;
+    font-size: 40px;
+}
+.div2{
+    background-color: #312DAD;
+    font-family: Arial;
+    color: yellow;
+}
+h2{
+    background-color: #312DAD;
+    font-family: Brodway;
+    color: yellow;   
+}
+thead{
+    color: red;
+}
+ul>li>strong{
+    color: blue;
+}
+table{
+    font-family: tahoma;
+}
+footer{
+    background-color: black;
+    font-size: 10px;
+    text-align: center;
+}
+nav{
+    color: white;
+    background-color: black;
+    text-align: right;  
+}
+header{
+
+}

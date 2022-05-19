@@ -1,0 +1,15 @@
+header{
+    background-color: red;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    font-family: Arial Black;
+    color: white;
+}
+nav {
+ background-color: gray;
+ color: white;
+ margin-top: 0px; 
+ font-size: 15px;
+ margin: 0px;
+}
