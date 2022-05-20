@@ -1,0 +1,125 @@
+#imagen1{
+    height: 200px;  
+    margin: 10px;
+}
+#iniciars1{
+    text-align: right;
+}
+#nav1>a{
+    color: #0EAD26;
+}
+p{
+    text-align: justify;
+}
+.ME{
+    background-color: #50AD0E;
+    margin: 25px;
+}
+#imagen2{
+    height: 110px;
+    margin: 10px;
+}
+.cv{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.proyectos{
+    display: flex;
+}
+#p1{
+    height: 100px;  
+   
+}
+#contacto{
+    display: flex;
+    margin-left: 220px;
+}
+#contacto>div>input,textarea{
+    margin: 5px;
+}
+#contacto>#dd{
+    background-color: #74EB6C;
+    margin-bottom: 10px;
+}
+
+#IS{
+background-color: #74EB6C;
+margin-left: 330px;
+margin-right: 330px;
+}
+#is2>input{
+    margin-bottom: 5px;
+}
+#is2>h2{
+    margin-bottom: 0px;
+}
+#is2{
+    margin: 10px;
+}
+body{
+    margin: 0px auto;
+}
+
+.grid{
+      display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px 50px 50px;
+    grid-template-areas: "my-header"
+    "my-nav" "my-section" "my-aside" "my-nav2"
+    "my-footer";
+}
+main{
+       font-family: 'Times New Roman';
+}
+header{
+    background-color: #50AD0E;
+    grid-area: my-header;
+}
+
+#nav1{
+    background-color: #854B36;
+    grid-area: my-nav;
+    font-size: 30px;   
+}
+#nav2{
+    background-color: #50AD0E;
+    grid-area: my-nav2;
+    display: flex;
+}
+section{
+    background-color: white;
+    grid-area: my-section;
+    
+}
+
+aside{
+    background-color: #74EB6C;
+    grid-area: my-aside;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: black;
+    grid-area: my-footer;
+}
+
+@media (min-width:600px) and (max-width:1000px){
+    
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 200px 50px 1fr 50px 100px;
+        grid-template-areas: "my-header my-header"
+        "my-nav my-nav" "my-aside my-section" "my-nav2 my-nav2"
+        "my-footer my-footer";
+    }
+}
+@media (min-width:1001px){
+    .grid{
+        grid-template-columns: 1000px 1fr;
+        grid-template-rows: 200px 40px 1fr 130px 50px;
+        grid-template-areas: "my-header my-header"
+        "my-nav my-nav"  "my-section my-aside" "my-nav2 my-nav2"
+        "my-footer my-footer";
+    }
+}
