@@ -1,0 +1,55 @@
+#imagen1{
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+body{
+   margin-left: 300px;
+   margin-right: 300px;
+}
+
+.grid{
+      display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows:  1fr 1fr;
+    grid-template-areas: 
+    "my-nav" "my-section" 
+    ;
+}
+main{
+    color: white;
+    font-family: arial;
+}
+
+
+nav{
+    background-color: cornflowerblue;
+    grid-area: my-nav;
+}
+
+section{
+    background-color: indigo;
+    grid-area: my-section;
+    
+}
+#botones{
+    text-align: center;
+}
+#nombre,#apellido,#dni,#edad{
+    margin-bottom: 8px;
+}
+
+
+
+@media (min-width:1001px){
+    .grid{
+        grid-template-columns: 400px 600px;
+        grid-template-rows:  800px;
+        grid-template-areas: 
+        "my-nav my-section"
+        ;
+    }
+}
