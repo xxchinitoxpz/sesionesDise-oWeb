@@ -1,0 +1,21 @@
+html,body{
+    height: 100%;
+}
+#cover{
+    background: #222 url(../img/raza-pug-hocico.jpg) center no-repeat ;
+    background-size: 100%;
+    color:white;
+    height: 100%;
+    text-align: center;
+}
+#cover-texto{
+    width: 100%;
+}
+
+#e{
+    float:right;
+    margin-left: 20px;
+}
+#a{
+    margin-bottom: 30px;
+}

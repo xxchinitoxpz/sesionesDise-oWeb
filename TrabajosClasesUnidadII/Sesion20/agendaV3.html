@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendaV3.css">
+    <title>Document</title>
+</head>
+<body onload="actualizarDatos()">
+    <div id="contenedor">
+        <header id="cabezera">
+            <h3 id="titulo">Mi agenda de contactos</h3>
+            <hr>
+        </header>
+        <form id="datos">
+            <span>DNI:</span>
+            <input type="text" placeholder="DNI" id="DNI" ><br><br>
+            <span>Nombre:</span>
+            <input type="text" placeholder="Nombre" id="nombre" ><br><br>
+            <span>Apellido:</span>
+            <input type="text" placeholder="Apellido" id="apellido" ><br><br>
+            <span>Num Celular:</span>
+            <input type="text" placeholder="Movil" id="movil"><br><br>
+            <span>Email:</span>
+            <input type="text" placeholder="Email" id="email" >
+        </form>
+        <hr/>
+        <div id="botones">
+            <button type="button" onclick="guardarDato()">Guardar</button>
+            
+            <button type="button" onclick="eliminarTodo()">Eliminar todos</button>
+        </div>
+        <hr>
+        <div id="recuperar">
+            <input type="text" placeholder="DNI" id="recuperarDNI" >
+            <button type="button" onclick="recuperarDato()">Recuperar</button>
+        </div>      
+        <hr>
+        <div id="eliminar">
+            <input type="text" placeholder="DNI" id="eliminarDNI" >
+            <button type="button" onclick="eliminarDato()">Eliminar</button>
+        </div>
+        <hr>
+        <span class="titu">DNI</span> <span class="titu">Nombre</span> <span class="titu">Apellido</span> <span class="titu">Celular</span> <span class="titu">Email</span><br>
+        <ul id="contactos"></ul>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/agendaV3.js"></script>
+</body>
+</html>
