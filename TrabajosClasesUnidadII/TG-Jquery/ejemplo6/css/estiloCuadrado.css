@@ -1,0 +1,77 @@
+#cuadrado{
+    margin-left: 10%;
+    background: red;
+    width: 300px;
+    height: 300px;
+  }
+  body{
+    font-family: Arial;
+}
+.separar{
+    padding-top: 20px;
+}
+.gridCabeza{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    align-items: center;
+    background-color: antiquewhite;
+    
+    height: auto;
+    
+}
+.integra li{
+    padding-bottom: 5px;
+
+}
+.cuerpo li,ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+}
+.cuerpo{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.lista{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 20px;
+    background-color:antiquewhite;
+    height: 40px;
+    list-style: none;
+    color: black;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+.lista:hover{
+    align-items: center;
+    background-color: cadetblue;
+    height: 40px;
+}
+.lista li:hover{
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 14px;
+    
+    background-color: whitesmoke;
+}
+.lista a:hover{
+    color: black;
+    font-weight: 700;
+    
+}
+a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 25%;
+}
+.gp4{
+    font-size: 60px;
+    font: bold;
+}
